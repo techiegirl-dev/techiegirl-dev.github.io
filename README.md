@@ -1,4 +1,4 @@
-# Hi, I'm a Techie Babe 👩‍💻
+# Hi, I'm a Tech Babe 👩‍💻
 
 My Personal Portfolio Website
 
