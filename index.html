@@ -3,136 +3,149 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Techie Girl | Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&</style>
-</head>
+<title>Sofiyyah Basheer - Portfolio</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-body{
-  background: radial-gradient(circle at top, #064e3b 0%, #022c22 60%);
-  color: #ecfdf5;
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body {
+  background-color: #022c22 !important;
+  background: #022c22 !important;
+  color: #ecfdf5 !important;
+  font-family: Arial, sans-serif;
+  min-height:100vh;
 }
-h1
-{font-size: 3rem; color: #34d399; text-shadow: 0 0 20px #10b98166; }
-h2 { color: #6ee7b7; border-bottom: 2px solid #10b98133; padding-bottom: 10px;
+.container{
+  max-width:900px;
+  margin:0 auto;
+  padding:30px 20px;
 }
-
-.skills, .projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  padding: 20px;
+.badge{
+  display:inline-block;
+  background:#064e3b;
+  border:1px solid #10b981;
+  color:#6ee7b7;
+  padding:8px 18px;
+  border-radius:50px;
+  font-size:14px;
+  margin-bottom:15px;
 }
-.skill-box, .project-box {
-  background: linear-gradient(145deg, #064e3b, #065f46);
-  border: 1px solid #10b98144;
-  border-radius: 16px;
-  padding: 25px;
-  text-align: center;
-  box-shadow: 0 8px 20px #00000044;
-  transition: 0.3s;
+h1{
+  color:#34d399 !important;
+  font-size:32px;
+  line-height:1.2;
 }
-.skill-box:hover, .project-box:hover {
-  transform: translateY(-8px);
-  border-color: #10b981;
-  box-shadow: 0 12px 30px #10b98144;
+h1 span{ color:white; }
+.subtitle{ color:#6ee7b7; font-weight:bold; margin:10px 0; }
+p{ line-height:1.6; margin:10px 0; color:#d1fae5; }
+.btn{
+  display:inline-block;
+  background:linear-gradient(90deg,#10b981,#059669) !important;
+  color:white !important;
+  padding:12px 24px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:bold;
+  margin:10px 10px 0;
 }
-
-.btn, .socials a {
-  background: linear-gradient(90deg, #10b981, #059669);
-  color: white !important;
-  padding: 12px 22px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: 600;
-  box-shadow: 0 4px 15px #10b98166;
-  transition: 0.3s;
-  display: inline-block;
-  margin: 5px;
+h2{
+  color:#6ee7b7 !important;
+  margin-top:40px;
+  margin-bottom:15px;
+  border-left:4px solid #10b981;
+  padding-left:12px;
 }
-.btn:hover, .socials a:hover {
-  background: linear-gradient(90deg, #34d399, #10b981);
-  box-shadow: 0 6px 25px #10b98188;
-  transform: scale(1.05);
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+  gap:12px;
 }
-.socials {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 30px;
+.card{
+  background:#064e3b !important;
+  border:1px solid #10b98144;
+  border-radius:12px;
+  padding:16px;
+  text-align:center;
+  color:white;
+}
+.socials{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:30px;
+  justify-content:center;
+  background:#064e3b;
+  padding:20px;
+  border-radius:15px;
+  border:1px solid #10b98144;
+}
+.socials a{
+  background:#022c22;
+  border:1px solid #10b981;
+  color:#6ee7b7 !important;
+  padding:10px 18px;
+  border-radius:30px;
+  text-decoration:none;
+}
+footer{
+  text-align:center;
+  margin-top:40px;
+  padding:20px;
+  color:#6ee7b7;
+  font-size:14px;
 }
 </style>
+</head>
 <body>
+<div class="container">
 
-<section class="hero">
-<div>
 <div class="badge">✨ Available for freelance work</div>
-<h1>Hi, I'm <br><span>Sofiyyah Basheer</span> 👩‍💻</h1>
-<p>Web Developer & Designer based in Ilaro, Nigeria 🇳🇬 <br> I build beautiful, fast and functional websites that slay.</p>
-<div class="btns">
-<a class="btn btn-primary" href="#projects">View My Work</a>
-<a class="btn btn-ghost" href="https://github.com/techiegirl-dev">GitHub</a>
-</div>
-</div>
-</section>
 
-<div class="card" id="about">
-<h2>💖 About Me</h2>
-<p style="color:#aaa;margin-top:15px;line-height:1.7">Hey! I'm a passionate web developer who loves turning ideas into reality. From clean codes to fine designs, I enjoy creating digital experiences that people actually love using. Currently learning and building cool stuff everyday!</p>
+<h1>Hi, I'm <span>Sofiyyah Basheer</span> 👩‍💻</h1>
+<div class="subtitle">Web Developer & Designer based in Ilaro, Nigeria 🇳🇬</div>
+<p>I build beautiful, fast and functional websites that slay. Turning ideas into reality with clean code and fine design.</p>
+
+<a class="btn" href="#projects">View My Work</a>
+<a class="btn" href="https://github.com/techiegirl-dev">GitHub</a>
+
+<h2>About Me</h2>
+<p>Hey! I'm a passionate web developer who loves turning ideas into reality. From clean codes to fine designs, I enjoy creating digital experiences that people actually love using. Currently learning and building cool stuff every day!</p>
+
+<h2>Skills</h2>
 <div class="grid">
-<div class="project"><h3>🛠️ Skills</h3>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>Git & GitHub</li>
-<li>Responsive Design</li>
-</ul></div>
-<div class="project"><h3>📍 Location</h3><p>Based in Ilaro, Ogun State, Nigeria<br>Open to Remote Work</p></div>
-<div class="project"><h3>🎯 Goal</h3><p>To become a top female tech boss and inspire more girls into tech!</p></div>
-</div>
+  <div class="card">HTML</div>
+  <div class="card">CSS</div>
+  <div class="card">JavaScript</div>
+  <div class="card">Git & GitHub</div>
+  <div class="card">Responsive Design</div>
 </div>
 
-<div class="card" id="projects">
-<h2>🚀 Projects</h2>
+<h2>Location</h2>
 <div class="grid">
-<div class="project">
-<h3>🌸 Portfolio Website</h3>
-<p style="color:#aaa;font-size:14px;margin:10px 0">My personal portfolio built with HTML, CSS & love.</p>
-<p style="font-size:13px">Live: techiegirl-dev.github.io</p>
-</div>
-<div class="project">
-<h3>✨ Coming Soon</h3>
-<p style="color:#aaa;font-size:14px;margin:10px 0">More amazing projects loading... Stay tuned!</p>
-<p style="font-size:13px;color:#ff69b4">In Progress 🔧</p>
-</div>
-<div class="project">
-<h3>💡 Your Idea Here?</h3>
-<p style="color:#aaa;font-size:14px;margin:10px 0">Have a project? Let's build it together!</p>
-<a href="mailto: sofiyyahbasheer09@gmail.com" style="color:#ff69b4;font-size:13px">Let's Talk →</a>
-</div>
-</div>
+  <div class="card">📍 Ilaro, Ogun State</div>
+  <div class="card">🌍 Open to Remote</div>
 </div>
 
-<div class="card" style="text-align:center">
-<h2>📩 Let's Connect</h2>
-<p style="color:#aaa;margin:15px 0">Wanna collab or just say hi?</p>
+<h2>Goal</h2>
+<p>To become a top female tech boss and inspire more girls into tech!</p>
+
+<h2 id="projects">Projects</h2>
+<div class="grid">
+  <div class="card">My Portfolio Website<br><small>techiegirl-dev.github.io</small></div>
+  <div class="card">More Amazing Projects<br>Loading... Stay Tuned</div>
+  <div class="card">Coming Soon<br>💫 In Progress</div>
+</div>
+
+<h2>Let's Talk</h2>
+<p>Have a project? Let's build it together! Wanna collab or just say hi?</p>
+
 <div class="socials">
-<a href="https://github.com/techiegirl-dev">GitHub</a>
-<a href="https://x.com/techbabe_dev" target="_blank">X / Twitter</a>
-<a href="https://wa.me/2349113085498">WhatsApp</a>
-<a href="mailto: sofiyyahbasheer09@gmail.com.com">Email</a>
-</div>
+  <a href="https://github.com/techiegirl-dev" target="_blank">GitHub</a>
+  <a href="https://x.com/techbabe_dev" target="_blank">Twitter / X</a>
+  <a href="https://wa.me/2349113085498" target="_blank">WhatsApp</a>
+  <a href="mailto: sofiyyahbasheer09@gmail.com">Email</a>
 </div>
 
-<footer>
-Made with 💖 by Techie Girl • © 2026 • Ilaro, NG
-</footer>
+<footer>Made with ❤️ by Techie Girl • 2026 • Ilaro, NG</footer>
 
+</div>
 </body>
 </html>
